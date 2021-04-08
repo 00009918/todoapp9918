@@ -8,6 +8,12 @@
     box-sizing: border-box;   
 }
 
+body {
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 100%;
+    
+}
+
 .wrapper {
     max-width: 800px;
     margin: 50px auto;
@@ -15,7 +21,9 @@
 
 .logo {
     text-align: center;
+    margin-bottom: 45px;
     font-size: 4rem;
+    color: black;
 }
 
 .form {
@@ -30,6 +38,7 @@
     font-size: 1.5rem;
     width: 80%;
     border: 1px solid #ccc;
+    border-radius: 12px;
     font-family: inherit;
 }
 
@@ -37,15 +46,18 @@
     display: inline-block;
     padding: 10px 20px;
     font-size: 1.5rem;
+    font-family: inherit;
     width: 18%;
     border: none;
-    background: blue;
+    border-radius: 12px;
+    background: rgb(206, 100, 233);
     color: #fff;
 }
 
 .todos {
     margin-top: 25px;
     border: 1px solid #ccc;
+    border-radius: 12px;
     padding: 10px;
 }
 
@@ -70,26 +82,37 @@
 .success {
     text-align: center;
     font-size: 1.4rem;
-    border: 1px solid #ccc;
+    border-radius: 12px;
     padding: 10px;
     margin-bottom: 25px;
     margin-top: 10px;
 }
 
 .error {
-    color: red;
-    border-color: red;
+    color: #fff;
+    background: tomato;
 }
 
 .success {
-    color: green;
-    border-color: green;
+    color: #fff;
+    background: rgb(62, 165, 62);
 }
 
 .delete {
     text-decoration: none;
     font-size: 1rem;
     padding: 5px 10px;
+    border-radius: 12px;
     background: rgb(250, 234, 95);
     color: #fff;
+}
+
+.done,
+.undone {
+    text-decoration: none;
+    color: black;
+}
+
+.done {
+    text-decoration: line-through;
 }
