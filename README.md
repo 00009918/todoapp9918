@@ -6,7 +6,7 @@ This app allows users to manage their tasks.
 1. Download the source code.=
 
 ```bash
-git clone [https://github.com/00009918/todoapp9918]
+git clone [https://github.com/00009918/todoapp9918.git]
 ```
 or just download the *.zip file
 
@@ -23,4 +23,4 @@ node app
 - pug
 
 #### Link to github repo
-https://github.com/00009918/todoapp9918
+https://github.com/00009918/todoapp9918.git
